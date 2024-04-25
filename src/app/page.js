@@ -8,7 +8,7 @@ import Footer from '../app/components/Footer';
 import Hero from '../app/components/Hero';
 import CardsGrid from '../app/components/CardsGrid'
 import Card from './components/Card';
-import img from '../img'
+import img from '../'
 
 const Home = () => {
   // Datos para las tarjetas
