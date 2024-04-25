@@ -1,31 +1,27 @@
- import Image from "next/image";
-import styles from "./page.module.css";
-
-
 import React from 'react';
 import Navbar from '../app/components/Navbar';
 import Footer from '../app/components/Footer';
 import Hero from '../app/components/Hero';
-import CardsGrid from '../app/components/CardsGrid'
+import CardsGrid from '../app/components/CardsGrid';
 import Card from './components/Card';
-import img from '../'
+import margarita from '../img/margarita.png';
 
 const Home = () => {
   // Datos para las tarjetas
   const cardsData = [
     {
       title: 'Tarjeta 1',
-      image: '/card1.jpg',
+      image: margarita,
       description: 'Esta es la descripción de la tarjeta 1.',
     },
     {
       title: 'Tarjeta 2',
-      image: '/card2.jpg',
+      image: margarita,
       description: 'Esta es la descripción de la tarjeta 2.',
     },
     {
       title: 'Tarjeta 3',
-      image: '/card3.jpg',
+      image: margarita,
       description: 'Esta es la descripción de la tarjeta 3.',
     },
     // Puedes agregar más datos de tarjetas aquí si es necesario
@@ -51,7 +47,5 @@ const Home = () => {
   );
 }
 
+
 export default Home;
-
-
-
