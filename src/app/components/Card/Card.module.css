@@ -1,5 +1,5 @@
 .contenedorcard {
-    background: rgb(180, 211, 185);
+    background: rgb(219, 50, 140);
     margin: 5%;
     padding: 4%;
     display: flex;
@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     border: 5px solid white;
+    border-radius: 1em;
 }
 
 .contenedorcard h3 {
@@ -16,10 +17,11 @@
 
 
 .contenedorcard button {
-    background-color: black;
-    color: rgb(211, 180, 180);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 97, 202);
     margin-top: 10%;
     padding: 4%;
+    border-radius: 2em;
     cursor: pointer;
     font-weight: bold;
 }

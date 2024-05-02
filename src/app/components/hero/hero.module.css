@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top: 5px solid  rgb(211, 180, 180);
+    border-top: 5px solid  rgb(211, 180, 200);
     border-bottom: 5px solid  rgb(211, 180, 180);
 }
 
@@ -28,18 +28,19 @@
     font-size: 5em; 
     text-align: center;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Desplazamiento horizontal, desplazamiento vertical, desenfoque, color */
+    text-shadow: 2px 2px 4px #ff048580; /* Desplazamiento horizontal, desplazamiento vertical, desenfoque, color */
 }
 
-.container p {
+/* .container p {
     font-size: 30px; 
     text-align: center;
     margin-bottom: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Desplazamiento horizontal, desplazamiento vertical, desenfoque, color */
-}
+/*} 
 
 .container p:hover{
     cursor: pointer;
     text-decoration: underline;
 }
+*/
 

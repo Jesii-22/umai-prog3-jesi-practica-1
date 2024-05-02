@@ -14,7 +14,7 @@ export default function Home() {
       <NavBar title={'Maybelline'}/>
       <Hero imagen={fotos[0].imagen} alt={fotos[0].description} title={fotos[0].title} />
       <CardsGridComp cards={cardGrid}/>
-      <Hero2 mainText={`hola`}/>
+      <Hero2 mainText={``}/>
       <Footer/>
     </main>
   );

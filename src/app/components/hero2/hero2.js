@@ -5,7 +5,6 @@ const Hero2 = ({mainText}) =>{
     return(
         <div className={styles["container"]}>
             <h3>{mainText}</h3>
-            <p>Make Up</p>
         </div>
     )
 }
