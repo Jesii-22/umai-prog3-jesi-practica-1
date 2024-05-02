@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card'; // Asegúrate de tener el componente Card
+import Card from './Card/Card'; // Asegúrate de tener el componente Card
 
 const CardsGrid = ({ cards }) => {
   return (

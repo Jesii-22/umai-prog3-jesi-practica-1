@@ -3,8 +3,8 @@ import Navbar from '../app/components/Navbar';
 import Footer from '../app/components/Footer';
 import Hero from '../app/components/Hero';
 import CardsGrid from '../app/components/CardsGrid';
-import Card from './components/Card';
-import margarita from '../img/margarita.png';
+import Card from './components/Card/Card';
+
 
 const Home = () => {
   // Datos para las tarjetas
