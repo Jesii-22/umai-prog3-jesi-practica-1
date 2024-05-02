@@ -1,17 +1,16 @@
 import NavMenu from "./NavMenu";
-import styles from "./NavBar.module.css"
+import styles from "./NavBar.module.css";
 
-const NavBar = (props) => {
-const {title} = props
 
+const NavBar = () => {
     return (
         <header className={styles.container}>
-            <h1>{title}</h1>
+            <img src={'https://www.maybelline.com.ar/-/media/project/lore…go-small.svg?rev=e3d9e916b78047419b2d95c53dae0144'} alt="Logo" className={styles.logo} /> {/* Aquí agregamos la imagen */}
             <nav className={styles.menu}>
-            <NavMenu/>
+                <NavMenu />
             </nav>
         </header>
     );
 };
 
-export default NavBar
+export default NavBar;

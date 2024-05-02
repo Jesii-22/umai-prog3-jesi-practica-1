@@ -1,29 +1,33 @@
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-    
 }
 
-.container h1{
-    font-size: 50px;
+.logo {
+    width: 100px; /* Ajusta el ancho de la imagen del logo según tus necesidades */
+    height: auto; /* Esto asegura que la altura se ajuste automáticamente para mantener la relación de aspecto */
 }
 
-.menu{
+.menu {
     display: flex;
-    justify-self: center;
     align-items: center;
     gap: 40px;
-
 }
 
-.menu ul{
- text-decoration: none;
- list-style-type: none;
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-.menu a:hover{
+.menu a {
+    text-decoration: none;
+    color: #000; /* Cambia el color del texto según tus preferencias */
+}
+
+.menu a:hover {
     color: rgb(211, 180, 180);
     font-size: 20px;
     cursor: pointer;

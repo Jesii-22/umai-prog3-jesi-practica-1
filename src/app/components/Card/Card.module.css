@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 5px solid white;
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 1em;
 }
 
@@ -17,7 +17,7 @@
 
 
 .contenedorcard button {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.774);
     color: rgb(255, 97, 202);
     margin-top: 10%;
     padding: 4%;
