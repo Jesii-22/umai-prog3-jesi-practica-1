@@ -13,7 +13,7 @@ const Card = (props) => {
             priority/>
             <h3>{title}</h3>
             <p>{description}</p>
-            <button>Hola</button>
+            <button>boton</button>
         </div>
     );
 };

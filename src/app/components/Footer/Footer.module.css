@@ -19,7 +19,7 @@
 
 .menufooter ul li {
     display: inline-block;
-    margin-right: 20px; /* Agrega un margen derecho entre los elementos <a> */
+    margin-right: 20px; 
 }
 
 .containerfooter a:hover{

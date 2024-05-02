@@ -24,7 +24,7 @@
 }
 
 .menu a:hover{
-    color: rgb(196, 180, 211);
+    color: rgb(211, 180, 180);
     font-size: 20px;
     cursor: pointer;
     transition: cubic-bezier(0.215, 0.610, 0.355, 1);

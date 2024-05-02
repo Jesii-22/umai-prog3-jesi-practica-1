@@ -1,34 +1,24 @@
 const cardGrid = [{
-    title:'カジュアルな五条',
-    description: '♡',
-    image:'/imagenes/gojobn1.jpg'
-},
-{
-    title:'パワフルな五条',
-    description: '❤',
-    image:'/imagenes/gojobn2.jpeg'
+    title:'Maybelline Lash Sensational',
+    description: 'Pestañas de larga duracion',
+    image:'/imagenes/rimmel.png'
 },
 
 {
-    title:'怒る五条',
-    description: '♡',
-    image:'/imagenes/gojobn3.jpg'
+    title:'Maybelline Vinyl',
+    description: 'Labial 18hs',
+    image:'/imagenes/labial.png'
 },
 
 {
-    title:'五条雲教授',
-    description: '❤',
-    image:'/imagenes/gojobn4.jpg'
+    title:'Maybelline The Blushed Nudes',
+    description: 'Sombras color nude',
+    image:'/imagenes/sombras.png'
 },
 {
-    title:'気持ち悪い五条',
-    description: '♡',
-    image:'/imagenes/gojobn5.jpg'
-},
-{
-    title:'五条野郎',
-    description: '❤',
-    image:'/imagenes/gojobn6.jpg'
+    title:'Maybelline Fit Me',
+    description: 'Corrector de larga duracion',
+    image:'/imagenes/corrector.png'
 }
 ];
 

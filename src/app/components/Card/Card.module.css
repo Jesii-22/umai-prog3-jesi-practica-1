@@ -1,5 +1,5 @@
 .contenedorcard {
-    background: rgb(180, 211, 192);
+    background: rgb(180, 211, 185);
     margin: 5%;
     padding: 4%;
     display: flex;
@@ -17,7 +17,7 @@
 
 .contenedorcard button {
     background-color: black;
-    color: rgb(0, 200, 103);
+    color: rgb(211, 180, 180);
     margin-top: 10%;
     padding: 4%;
     cursor: pointer;
