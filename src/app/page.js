@@ -1,12 +1,12 @@
 
-import NavBar from "@/components/nav/NavBar";
-import Card from "@/components/Card/Card";
-import cardGrid from "@/components/CardsGrid/cardGrid";
-import Hero from "@/components/hero/hero"
-import fotos from "@/components/fotos/fotos";
-import Hero2 from "@/components/hero2/hero2";
-import CardsGridComp from "@/components/CardsGrid/CardsGridComp";
-import Footer from "@/components/Footer/Footer";
+import NavBar from "../app/components/NavBar/Navbar";
+import Card from "../app/components/Card/Card";
+import cardGrid from "../app/components/CardsGrid/CardsGrid";
+import Hero from "../app/components/hero/hero"
+import fotos from "../app/components/fotos/foto";
+import Hero2 from "../app/components/hero2/hero2";
+import CardsGridComp from "../app/components/CardsGrid/CardsGridComp";
+import Footer from "../app/components/Footer/Footer";
 
 export default function Home() {
   return (
