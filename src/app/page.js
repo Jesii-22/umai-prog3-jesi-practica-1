@@ -7,7 +7,6 @@ import fotos from "../app/components/fotos/foto";
 import Hero2 from "../app/components/hero2/hero2";
 import CardsGridComp from "../app/components/CardsGrid/CardsGridComp";
 import Footer from "../app/components/Footer/Footer";
-import FetchGrid from "../app/components/FetchGrid/FetchGrid";
 
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
       {/* <cardGrid cards={data}/> */}
       <Hero2 mainText={``}/>
       <Footer/>
-      <FetchGrid/>
     </main>
   );
 }
